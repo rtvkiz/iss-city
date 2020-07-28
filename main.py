@@ -1,7 +1,6 @@
 from flask import Flask,render_template,request
 import ISS_Info as iss
-from datetime import datetime
-import time,notify2
+import time
 from geopy.geocoders import Nominatim
 
 app=Flask(__name__)
