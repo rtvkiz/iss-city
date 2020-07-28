@@ -4,7 +4,6 @@ import time
 from geopy.geocoders import Nominatim
 
 app=Flask(__name__)
-notify2.init("iss app")
 geolocator = Nominatim(user_agent="iss-city")
 
 
@@ -38,7 +37,6 @@ def city_get():
 			flag=1
 			passes=['Please check the city name and try again']
 			return render_template('city-list.html',passes=passes,len=len(passes),flag=flag)
-	# n=notify2.Notification("test","iss is up","go")
 
 
 	# while True:
