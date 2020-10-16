@@ -72,6 +72,7 @@ def coord():
 			city=""
 			flag=1
 			return render_template('result.html',passes=passes,len=len(passes),city=city,flag=flag)
+#the result is in html form 
 
 
 if __name__ == '__main__':
