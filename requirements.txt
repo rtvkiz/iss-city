@@ -1,4 +1,4 @@
 Jinja2==2.11.3
-Flask==1.0.2
+Flask==2.3.2
 geopy==2.0.0
 ISS-Info==1.0.0
